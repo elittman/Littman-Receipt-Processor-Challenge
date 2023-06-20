@@ -12,7 +12,7 @@ Once you have everything downloaded, make sure you are in the project directory 
 
 ## Create the virtual environment:
 Run the following command:
-  virtualenv env
+  - `virtualenv env`
 
 Before you can start the local server, you will need to activate the virtual environment:
   - For mac, run this command --> `source env/bin/activate`
@@ -28,4 +28,4 @@ Once the virtual enviornment is ready, you can run the local server with the fol
 This should start the local server on http://127.0.0.1:5000
 
 Likewise, the unit tests can be run with this command:
-  - `python3 test.py`
+  - `python3 tests.py`
